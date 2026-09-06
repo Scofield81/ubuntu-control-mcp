@@ -1,0 +1,61 @@
+Ubuntu Control MCP Proprietary Source-Available License
+
+Copyright © 2026 Vollai Roland. All rights reserved.
+
+1. Használat
+
+A végfelhasználó ezt a szoftvert (az "Ubuntu Control MCP" projektet, forráskódjával együtt)
+díjmentesen:
+
+  - letöltheti, klónozhatja;
+  - telepítheti és futtathatja;
+  - a forráskódot elolvashatja, tanulmányozhatja saját, nem terjesztett célra
+    (pl. biztonsági átvizsgálás, megértés, hibakeresés);
+  - és korlátlan ideig használhatja saját, személyes vagy üzleti célra.
+
+2. Forráskód
+
+A forráskód átláthatóság és megbízhatóság céljából nyilvánosan elérhető ezen a GitHub
+repository-n, de ettől függetlenül Vollai Roland kizárólagos szellemi tulajdona marad.
+A nyilvános elérhetőség nem jelent licencátruházást vagy nyílt forráskódú licencet.
+
+3. Korlátozások
+
+Vollai Roland előzetes, írásos engedélye nélkül TILOS:
+
+  - a szoftver (akár a bináris, akár a forráskód) újrakiadása vagy más néven/helyen
+    történő közzététele;
+  - a szoftver továbbértékesítése, kereskedelmi forgalomba hozatala, akár változatlan,
+    akár módosított formában;
+  - módosított változat elkészítése és terjesztése (forkolás után módosítva
+    közzétenni, publikálni);
+  - a szoftver vagy bármely része más termékbe/szolgáltatásba történő beépítése;
+  - a szoftver vagy bármely része saját termékként való publikálása vagy megjelenítése.
+
+Hibajelentést, funkciójavaslatot vagy módosítási ötletet a GitHub Issues felületén lehet
+jelezni — ezek fogadása és mérlegelése nem jelenti a fenti korlátozások feloldását.
+
+4. Platformjogok
+
+A jelen licenc nem írja és nem is írhatja felül azokat a jogokat, amelyek a GitHub (vagy
+bármely más, a projekt közzétételére használt platform) működéséhez szükségesek (pl. a
+platform saját szolgáltatási feltételei szerinti tárolás, megjelenítés, klónozás a
+platform normál használata keretében).
+
+5. Harmadik féltől származó összetevők
+
+A szoftver harmadik féltől származó, nyílt forráskódú komponenseket (pl. a hivatalos MCP
+Python SDK) is használhat futásidejű függőségként. Ezekre a saját licencfeltételeik
+vonatkoznak, amelyeket a jelen licenc nem módosít és nem korlátoz.
+
+6. Szavatosság kizárása
+
+A szoftver "ahogy van" (AS IS) kerül biztosításra, mindenféle kifejezett vagy hallgatólagos
+szavatosság nélkül. Vollai Roland nem vállal felelősséget a szoftver használatából eredő
+semmilyen közvetlen vagy közvetett kárért. A szoftver rendszergazdai/emelt szintű
+műveleteket hajthat végre a célgépen (rendszerparancsok, csomagkezelés, fájlműveletek) — a
+használat kizárólag a felhasználó saját felelősségére történik.
+
+7. Kapcsolat
+
+Kérdés vagy engedélykérés esetén: Vollai Roland — admin@zsebai.hu

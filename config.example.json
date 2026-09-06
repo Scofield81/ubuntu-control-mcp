@@ -1,0 +1,30 @@
+{
+  "mode": "normal",
+  "auto_approve": false,
+  "sudo_password_env": "UBUNTU_CONTROL_SUDO_PASSWORD",
+  "default_timeout": 120,
+  "max_timeout": 3600,
+  "desktop_enabled": true,
+  "audit_log_path": "~/.local/state/ubuntu-control-mcp/audit.log",
+  "file_roots": [],
+  "hosts": {
+    "prod": {
+      "hostname": "203.0.113.10",
+      "username": "ubuntu",
+      "port": 22,
+      "key_path": "~/.config/ubuntu-control-mcp/keys/prod_ed25519",
+      "password_env": null,
+      "sudo_password_env": "PROD_SUDO_PASSWORD",
+      "description": "Produkcios webszerver"
+    },
+    "nas": {
+      "hostname": "192.168.1.50",
+      "username": "admin",
+      "port": 22,
+      "key_path": null,
+      "password_env": "NAS_SSH_PASSWORD",
+      "sudo_password_env": null,
+      "description": "Hazi NAS"
+    }
+  }
+}

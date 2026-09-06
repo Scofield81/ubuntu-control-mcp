@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Ubuntu Control MCP - kiertekeles.
+
+  A kerdesek egy REFERENCIA kornyezetet feltteleznek: friss "Ubuntu 22.04 LTS
+  Desktop" telepites, alapertelmezett csomagokkal, a szerver NORMAL modban,
+  desktop control eszkozok (xdotool, wmctrl, scrot) telepitve, egyetlen
+  konfiguralt tavoli host nelkul (hacsak a kerdes mast nem mond).
+
+  Minden kerdes fuggetlen, csak olvasasi / nem-destruktiv muveleteket igenyel,
+  tobb tool-hivast kivan, es egyertelmuen ellenorizheto valasza van.
+-->
+<evaluation>
+
+  <qa_pair>
+    <question>Indits el egy uj lokalis terminalt, futtasd benne az "echo $(( 6 * 7 ))" parancsot, olvasd ki a kimenetet, majd zard be a terminalt. Milyen szamot irt ki a shell?</question>
+    <answer>42</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>A "system_info" tool szerint hany LOGIKAI CPU magja van a gepnek, ha a "nproc" parancs kimenete egy nyitott terminalban pontosan "4"?</question>
+    <answer>4</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>Nyiss egy terminalt, futtasd: "printf '%s\n' alma korte szilva | sort | tail -n 1". Mi a kimenet?</question>
+    <answer>szilva</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>A szerver alapertelmezett engedely-modja - ha sem a config fajl, sem a UBUNTU_CONTROL_MODE nincs beallitva - melyik a harom kozul (safe, normal, admin)?</question>
+    <answer>normal</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>Melyik tool-t kell meghivni ELSOKENT az ajanlott "Frissitsd az Ubuntut" munkafolyamatban a szerver dokumentacioja (instructions) szerint?</question>
+    <answer>apt_update</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>Keszits egy fajlt a /tmp/ucm-eval.txt utvonalon ezzel a tartalommal: "ubuntu control mcp". Ezutan a "read_file" toollal olvasd vissza, es a "file_info" toollal nezd meg a meretet byte-ban. Hany byte a fajl (a zaro ujsor nelkul irva)?</question>
+    <answer>17</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>Melyik engedely-mod szukseges minimum az "apt_remove" tool futtatasahoz?</question>
+    <answer>admin</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>A "terminal_ctrl_c" tool "key" mezoje elfogad tobb billentyut is. Melyik eszkapszekvenciat kuldi a szerver a "ctrl-c" ertekre (hexa byte-kent)?</question>
+    <answer>0x03</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>Nyiss egy terminalt, futtasd: "seq 1 100 | awk '{s+=$1} END {print s}'". Mennyi az osszeg?</question>
+    <answer>5050</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>A "screenshot" tool alapertelmezetten milyen kepformatumot ad vissza (a fajl kiterjesztese / format mezoje alapjan)?</question>
+    <answer>png</answer>
+  </qa_pair>
+
+</evaluation>
